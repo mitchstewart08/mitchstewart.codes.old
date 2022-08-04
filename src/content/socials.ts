@@ -1,7 +1,7 @@
 export const socials = [
   {
     icon: "fa6-brands:twitter",
-    link: "https://https://twitter.com/mitchstewart08.com",
+    link: "https://twitter.com/mitchstewart08.com",
     title: "Twitter",
   },
   {
