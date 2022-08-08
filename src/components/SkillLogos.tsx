@@ -10,11 +10,11 @@ const SkillLogos = (props: { className?: string, skills?: Array<Skill> }) => {
       {skills.map((skill) => {
         const { icon, slug, name } = skill;
         return icon ? (
-          <Link href={`/${slug}`} passHref key={slug}>
-            <a title={`${name} Projects`}>
+          // <Link href={`/${slug}`} passHref key={slug}>
+          //   <a title={`${name} Projects`}>
               <Icon icon={icon} />
-            </a>
-          </Link>
+          //   </a>
+          // </Link>
         ) : null;
       })}
     </div>
