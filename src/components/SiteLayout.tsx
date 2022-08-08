@@ -24,7 +24,7 @@ const SiteLayout = ({
         <meta property="og:title" content={title} />
         <meta name="twitter:card" content={description} />
         <meta property="og:description" content={description} />
-        <meta property="og:image" content={ogImage} />
+        <meta property="og:image" content="https://og-image.vercel.app/Mitchell%20Stewart%20-%20Full%20Stack%20Developer.png?theme=light&md=1&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-color-logo.svg" />
       </Head>
 
       <div>
@@ -33,10 +33,10 @@ const SiteLayout = ({
         {children}
       </div>
 
-      <Footer
+      {/* <Footer
           showSkills={showSkills}
           links={footerLinks}
-      />
+      /> */}
     </div>
   );
 };
