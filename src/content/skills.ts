@@ -6,20 +6,15 @@ export const skills: { [key: string]: Skill } = {
     slug: "react",
     icon: "logos:react",
   },
+  node: {
+    name: "Node",
+    slug: "node",
+    icon: "fa-brands:node",
+  },
   nextjs: {
     name: "Next.js",
     icon: "logos:nextjs-icon",
     slug: "nextjs",
-  },
-  contentful: {
-    name: "Contentful CMS",
-    icon: "logos:contentful",
-    slug: "contentful",
-  },
-  angular: {
-    name: "Angular",
-    icon: "logos:angular-icon",
-    slug: "angular",
   },
   html: {
     name: "HTML",
@@ -41,60 +36,21 @@ export const skills: { [key: string]: Skill } = {
     icon: "logos:typescript-icon",
     slug: "ts",
   },
-  sass: {
-    name: "SASS",
-    icon: "logos:sass",
-    slug: "sass",
-  },
-  less: {
-    name: "LESS",
-    icon: "logos:less",
-    slug: "less",
-  },
   git: {
     name: "Git",
     icon: "fa-brands:git",
     slug: "git",
   },
-  firebase: {
-    name: "Firebase",
-    icon: "logos:firebase",
-    slug: "firebase",
-  },
+
   mysql: {
     name: "MySQL",
     icon: "logos:mysql",
     slug: "mysql",
   },
-  algolia: {
-    name: "Algolia",
-    icon: "logos:algolia",
-    slug: "algolia",
-  },
-  bootstrap: {
-    name: "Bootstrap",
-    icon: "logos:bootstrap",
-    slug: "bootstrap",
-  },
-  spring: {
-    name: "Spring",
-    icon: "logos:spring-icon",
-    slug: "spring",
-  },
-  java: {
-    name: "Java",
-    icon: "logos:java",
-    slug: "java",
-  },
   redux: {
     name: "Redux",
     icon: "logos:redux",
     slug: "redux",
-  },
-  cpp: {
-    name: "C++",
-    icon: "logos:c-plusplus",
-    slug: "cpp",
   },
   scrum: {
     name: "Scrum",
@@ -104,11 +60,6 @@ export const skills: { [key: string]: Skill } = {
     name: "UI/UX Design",
     slug: "ux",
   },
-  instantsearchjs: {
-    name: "InstantSearch.js",
-    icon: "",
-    slug: "instantsearchjs",
-  },
   tailwind: {
     name: "Tailwind",
     icon: "logos:tailwindcss-icon",
@@ -117,6 +68,6 @@ export const skills: { [key: string]: Skill } = {
 };
 
 export const featuredSkills: Array<Skill> = [
-  skills.react, skills.nextjs, skills.contentful, skills.angular, skills.js,
-  skills.ts, skills.sass, skills.firebase, skills.git, skills.algolia
+  skills.react, skills.nextjs, skills.js,
+  skills.ts, skills.node, skills.git, skills.mysql, skills.redux, skills.scrum, skills.ux, skills.tailwind, skills.css, skills.html,
 ]
