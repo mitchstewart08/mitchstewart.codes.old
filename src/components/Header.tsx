@@ -8,22 +8,6 @@ export const Header = (): ReactElement => {
   const {emailAddress, name} = author
   const links = [
     {
-      title: "Home",
-      url: "/",
-    },
-    {
-      title: "Projects",
-      url: "/projects",
-    },
-    {
-      title: "Experience",
-      url: "/experience",
-    },
-    {
-      title: "Blog",
-      url: "/blog",
-    },
-    {
       title: emailAddress,
       url: `mailto:${emailAddress}`,
     },

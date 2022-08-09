@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Header } from "./Header";
 import Footer from "./Footer";
 import { ReactNode } from "react";
-import {siteConfig} from "../content/siteConfig";
+import { siteConfig } from "../content/siteConfig";
 
 const SiteLayout = ({
   children,
@@ -11,7 +11,7 @@ const SiteLayout = ({
   children: ReactNode;
   showSkills?: boolean;
 }) => {
-  const {title, description, favicon, ogImage, url, footerLinks} = siteConfig
+  const { title, description, favicon, ogImage, url, footerLinks } = siteConfig
   return (
     <div className="flex flex-col justify-between h-full">
       <Head>
@@ -28,7 +28,7 @@ const SiteLayout = ({
       </Head>
 
       <div>
-        <Header />
+        {/* <Header /> */}
 
         {children}
       </div>

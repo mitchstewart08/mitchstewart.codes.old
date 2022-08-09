@@ -1,27 +1,17 @@
 import Experience from "../types/experience";
-import {skills} from "./skills";
-import {projects} from "./projects";
+import { skills } from "./skills";
+import { projects } from "./projects";
 
 export const experiences: Array<Experience> = [
   {
     position: "Full-Stack Engineer",
-    company: "Apolinar",
-    dateStart: "Jul 2020",
+    company: "Freelance",
+    dateStart: "Dec 2019",
     dateEnd: "Present",
-    link: "https://apolinargroup.com/",
-    snippet: "Apolinar is an award-winning digital team in New Zealand.",
+    link: "",
+    snippet: "Making people's dream products a reality",
     description: (
       <>
-        <p>
-          Apolinar is an award-winning digital team in New Zealand. We create
-          content-managed websites for clients in various sectors like
-          healthcare, education, NGO and tech.
-        </p>
-        <p>
-          I work on these sites, implementing pixel-perfect designs across
-          multiple devices and browsers, while providing a good user experience
-          for content editors on the backend in Contentful.
-        </p>
       </>
     ),
     skills: [
@@ -39,12 +29,12 @@ export const experiences: Array<Experience> = [
     projects: [projects.nzst, projects.apolinar],
   },
   {
-    position: "Frontend Engineer",
-    company: "Corebridge",
-    dateStart: "May 2019",
-    dateEnd: "Jul 2020",
-    link: "https://corebridge.net/",
-    snippet: "Corebridge is a management tool for printing businesses.",
+    position: "Senior Full-Stack Engineer",
+    company: "Best Version Media",
+    dateStart: "Jan 2021",
+    dateEnd: "Feb 2022",
+    link: "https://www.bestversionmedia.com/",
+    snippet: "Best Version Media serves local businesses and residents by providing professional, family-friendly publications.",
     description: (
       <p>
         Corebridge is a management tool for printing businesses. It&apos;s a
@@ -57,13 +47,13 @@ export const experiences: Array<Experience> = [
     projects: [projects.educaider, projects.dubber, projects["dancer-tribe"]],
   },
   {
-    position: "Full-Stack Engineer",
-    company: "Catapult",
-    dateStart: "Apr 2017",
-    dateEnd: "Mar 2019",
-    link: "https://www.magaya.com/catapult-freight-rate-management-software/",
+    position: "Front-end Engineer",
+    company: "MarketChorus",
+    dateStart: "Jan 2019",
+    dateEnd: "Dec 2019",
+    link: "https://marketchorus.com/",
     snippet:
-      "Catapult develops a rate management software for freights for searching and comparing rates, managing margins, filing tariffs, etc.",
+      "Content Intelligence For Creators, Researchers & Publishers Powered by Machine Learning",
     description: (
       <p>
         I worked on a single page app for logistics quote management. I designed

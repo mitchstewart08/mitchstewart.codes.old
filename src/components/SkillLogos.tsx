@@ -12,7 +12,7 @@ const SkillLogos = (props: { className?: string, skills?: Array<Skill> }) => {
         return icon ? (
           // <Link href={`/${slug}`} passHref key={slug}>
           //   <a title={`${name} Projects`}>
-              <Icon icon={icon} />
+              <Icon icon={icon}  key={slug}/>
           //   </a>
           // </Link>
         ) : null;
