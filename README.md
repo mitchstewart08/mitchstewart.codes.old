@@ -1,3 +1,10 @@
-# Create T3 App
+# My personal portfolio
 
-This is an app bootstrapped according to the [init.tips](https://init.tips) stack, also known as the T3-Stack.
+www.mitchstewart.codes
+
+## Resources
+
+- [Iconify](https://iconify.design/) for icons and logos
+- [Tailwind Documentation](https://tailwindcss.com/) for CSS
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Vercel](https://vercel.com/) for deployment
