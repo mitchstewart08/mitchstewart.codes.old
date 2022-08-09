@@ -1,5 +1,5 @@
 import Project from "../types/project";
-import {skills} from "./skills";
+import { skills } from "./skills";
 
 
 const cardsAgainstVenture = {
@@ -23,7 +23,7 @@ const cardsAgainstVenture = {
   ],
 };
 
-export const projects: { [key: string]: Project } = {
+export const projects: { [key: string]: any } = {
   "cards-against-venture": {
     ...cardsAgainstVenture,
   },

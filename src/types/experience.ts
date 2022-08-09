@@ -8,7 +8,7 @@ export default interface Experience {
   dateStart: string;
   dateEnd: string;
   description: ReactNode;
-  skills: Array<Skill>;
+  skills: Array<any>;
   link?: string;
   projects?: Array<Project>;
   snippet?: string;

@@ -1,6 +1,5 @@
 import Experience from "../types/experience";
 import { skills } from "./skills";
-import { projects } from "./projects";
 
 export const experiences: Array<Experience> = [
   {
@@ -26,7 +25,6 @@ export const experiences: Array<Experience> = [
       skills.algolia,
       skills.redux,
     ],
-    projects: [projects.nzst, projects.apolinar],
   },
   {
     position: "Senior Full-Stack Engineer",
@@ -44,7 +42,6 @@ export const experiences: Array<Experience> = [
       </p>
     ),
     skills: [skills.angular, skills.js, skills.ts, skills.git, skills.scrum],
-    projects: [projects.educaider, projects.dubber, projects["dancer-tribe"]],
   },
   {
     position: "Front-end Engineer",
@@ -69,6 +66,5 @@ export const experiences: Array<Experience> = [
       skills.spring,
       skills.java,
     ],
-    projects: [projects.nzma],
   },
 ];

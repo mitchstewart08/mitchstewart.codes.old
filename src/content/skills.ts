@@ -67,7 +67,7 @@ export const skills: { [key: string]: Skill } = {
   },
 };
 
-export const featuredSkills: Array<Skill> = [
+export const featuredSkills: Array<any> = [
   skills.react, skills.nextjs, skills.js,
   skills.ts, skills.node, skills.git, skills.mysql, skills.redux, skills.scrum, skills.ux, skills.tailwind, skills.css, skills.html,
 ]

@@ -3,8 +3,8 @@ import Icon from "./Icon";
 import Link from "next/link";
 import Skill from "../types/skill";
 
-const SkillLogos = (props: { className?: string, skills?: Array<Skill> }) => {
-  const {className = '', skills = Object.keys(skillsMap).map(key => skillsMap[key])} = props
+const SkillLogos = (props: { className?: string, skills?: Array<any> }) => {
+  const { className = '', skills = Object.keys(skillsMap).map(key => skillsMap[key]) } = props
   return (
     <div className={`flex flex-wrap ${className}`}>
       {skills.map((skill) => {
@@ -12,7 +12,7 @@ const SkillLogos = (props: { className?: string, skills?: Array<Skill> }) => {
         return icon ? (
           // <Link href={`/${slug}`} passHref key={slug}>
           //   <a title={`${name} Projects`}>
-              <Icon icon={icon}  key={slug}/>
+          <Icon icon={icon} />
           //   </a>
           // </Link>
         ) : null;
